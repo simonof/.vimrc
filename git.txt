@@ -1,0 +1,24 @@
+ git --version
+git version 2.24.3 (Apple Git-128)
+MacBook-Air-Elena:~ elenasimonova$ git config --global user.name simonoff
+MacBook-Air-Elena:~ elenasimonova$ git config --global user.email simonoff.e@gmail.com
+MacBook-Air-Elena:~ elenasimonova$ git config user.name
+simonoff
+ mkdir git-создали папку гит
+ cd git- перешли в папку гит
+ git init- создали дерикторлию для гита 
+Initialized empty Git repository in /Users/elenasimonova/git/.git/
+ touch app.c- cоздали файл
+git log- команда показывает историю коммитов 
+git status - показывает статус файлов
+git add app.c - добавляет файлы в воркфлоу(место из которого потом файл
+ уходит  в коммит
+ git commit -m "сообщение"- команда добавляет файл из воркфлоу в коммит
+git show -  показывает информацию о коммите( после show надо добавить 
+интересующую информацию, например хэш коммита)
+git restor app.c - возвращает файл в состояние последнего коммита 
+git diff - показывает изменение файла
+git mv- move просто перемещение или изменение название(git mv app.c appизмененый.c и гит поменяет название файла)
+git rm- удаление(в качестве аргуменат название файла git rm app.c)
+
+
