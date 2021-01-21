@@ -26,5 +26,14 @@ git chekout master - возвращает коммит на оригинальн
 git merge - обьединяет ветки(git merge new -api)
 git branch -a - показывает все ветки которые есть
 git branch -d - удаляет ветку
-
-
+############################
+работа с GitHub
+git remote add origin /ssh  ветки гитхаба/
+git remote -v показывает что есть в рпозитории
+git push origin master - отправить изменения
+куда - на сервер origin
+на ветку -master
+git clone /SSH github/- копирует с гитхаба репозиторий на твой ПК
+git pull origin master - забирает изменения с удаленного сервера(например если второй разработчик запушил на сервер новые изменения)
+git teg - указатель
+a
